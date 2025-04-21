@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  brs:
+    build: .
+    ports:
+      - "8085:80"
+    networks:
+      - brs-network
+   
+networks:
+  brs-network:
+    external: true
