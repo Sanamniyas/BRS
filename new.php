@@ -113,7 +113,6 @@
   <div class="header">
     <div class="logo">Reader's Choice</div>
     <div class="nav">
-      <a href="#">Home</a>
       <a href="login.php">Logout</a>
     </div>
   </div>
