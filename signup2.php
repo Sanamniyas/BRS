@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "<script>
                 alert('Error: " . $stmt->error . "');
-                window.location.href='sign2.php';
+                window.location.href='signup.php';
               </script>";
     }
 
