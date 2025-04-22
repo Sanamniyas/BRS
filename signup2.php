@@ -1,4 +1,4 @@
-?php
+<?php
 $servername = "my-mysql";
 $username = "root";
 $password = "root";
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($username) || empty($phone) || empty($email) || empty($password)) {
         echo "<script>
                 alert('All fields are required!');
-                window.location.href='sign2.php';
+                window.location.href='signup.php';
               </script>";
         exit();
     }
