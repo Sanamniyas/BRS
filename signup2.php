@@ -1,11 +1,11 @@
-<?php
+?php
 $servername = "my-mysql";
 $username = "root";
 $password = "root";
 $dbname = "BookReview";
 
 # Create connection
-$conn = new mysqli($servername, $username, $password, $dbname;
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 # Check connection
 if ($conn->connect_error) {
